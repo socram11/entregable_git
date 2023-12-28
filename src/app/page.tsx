@@ -1,6 +1,6 @@
 
+"use client"
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; 
 import Navbar from './components/Navbar';
 import { Container, Text } from '@chakra-ui/react';
 import SearchBar from './components/searchBar';
@@ -26,7 +26,6 @@ const Home: React.FC = () => {
       )}
 
       
-      <Link to="/admin">Go to Admin Page</Link>
     </Container>
   );
 };  

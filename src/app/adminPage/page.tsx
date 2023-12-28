@@ -1,5 +1,6 @@
+"use client"
 import React from 'react';
-import AdminPanel from './components/AdminPannel';
+import AdminPanel from '../components/AdminPannel';
 
 const AdminPage: React.FC = () => {
   return (

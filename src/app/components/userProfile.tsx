@@ -1,7 +1,7 @@
 "use client"
 import { Avatar, Badge, Button, Flex, VStack, Text, Box } from '@chakra-ui/react'
 import React from 'react'
-import Repos from './repos'
+
 
 const userProfile = ({userData}:any) => {
   return (

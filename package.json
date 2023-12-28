@@ -1,0 +1,31 @@
+{
+  "name": "entregable_git",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/next-js": "^2.1.5",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "axios": "^1.6.2",
+    "framer-motion": "^10.16.4",
+    "next": "^14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router-dom": "^6.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.5",
+    "@types/react": "18.2.46",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "typescript": "5.3.3"
+  }
+}
